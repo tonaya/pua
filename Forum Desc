@@ -1,0 +1,12 @@
+Hello,
+We have the forum section of the backend(database) for the application.
+The table already exist in the 'tables.sql' script provided and the name of the table is UserComments.
+This table will store the comments and reviews entered by users.
+In order for this to happen certain procedures are to be created..
+Here is the list of possible procedures:
+A procedure to;
+1) add user comment
+2) Retrive users comments for a given pu_loc_id(that is a polling unit)
+
+Have fun,
+Cheers!!!
