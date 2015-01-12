@@ -1,0 +1,47 @@
+Hello,
+This is the backend(database) of a polling application written in mysql. 
+The database is made up of 8 tables, which are;
+
+1)npu       -- Stores polling unit details.
+
+2)Users     -- Stores information of a user of the application.
+
+3) Gender   -- Stores the possible gender(sex) of a user.
+
+4)Reviews   -- Stores a list of predefined reviews, which users can select from.
+
+5)ElectionTypes  -- Stores information of the type of election e.g Presidential, senetorial etc.
+
+6)ElectionEvents -- Stores information of electiontypes and the set dates for each election. 
+
+7)UsersReview  -- Stores reviews entered by users from the list of predefined reviews, which are containd in the "Reviews" table.
+
+8)UserComments  -- Stores comments entered by users( not predefined)
+
+
+The scripts available in this projects are
+
+1) tabledump.sql   -- This is a dump of the npu table. This table stores polling units and other details of a unit. This script should be executed first before all others.
+
+2)tables.sql       -- This is an sql script for the creation of other tables in the database. It should be executed after "tabledump.sql".
+
+3)pop.sql          -- This is an sql script that populates the tables with necessary information. It should be executed after "tables.sql".
+
+4)proc.sql         -- This is an sql script which contains stored procedures that are used to manage the database.
+
+So far, other sections of the database have been worked on. 
+
+The forum section of the backend(database) for the application is what is left.
+The table needed for this already exist in the 'tables.sql' script and the name of the table is "UserComments".
+This table will store the comments  entered by users.
+In order for the forum to be effective certain procedures are to be created..
+Here is the list of possible procedures:
+
+A procedure to;
+
+1) add user comment
+
+2) Retrive users comments for a given pu_loc_id(that is a polling unit)
+
+Have fun.
+Cheers!!!
