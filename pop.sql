@@ -1,4 +1,4 @@
-/* Populate script for National Polling Unit Database 
+-- Populate script for National Polling Unit Database 
 
 -- --Populate for Gender--
 SET FOREIGN_KEY_CHECKS = 0;
@@ -30,7 +30,7 @@ INSERT INTO Users (deviceID,Name,`ID`) VALUES ('9887DEV','Bulama','m');
 INSERT INTO Users (deviceID,Name,`ID`) VALUES ('88485DEV','Afoma','f');
 INSERT INTO Users (deviceID,Name,`ID`) VALUES ('qyw7yDEV','Collins','m');
 INSERT INTO Users (deviceID,Name,`ID`) VALUES ('yqg34DEV','Kate','f');
-*/
+
 -- -------------------------------------------------
 -- --Popluate ElectionTypes----
 SET FOREIGN_KEY_CHECKS = 0;

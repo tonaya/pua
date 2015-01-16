@@ -91,7 +91,7 @@ BEGIN
 END //
 DELIMITER ;*/
 
-/*
+
 DELIMITER //
 DROP PROCEDURE searchPollUnit //
 CREATE PROCEDURE searchPollUnit (IN in_pu_loc_id varchar(255),
@@ -185,8 +185,8 @@ END //
 DELIMITER ;
 
 
-/*mysqldump -P 3310 -h 127.0.0.1 -u mysql_user -p database_name table_name
-mysqldump -h 172.16.3.253 -usdg -psdg2006 test npu*/
+/*mysqldump -P 3310 -h 127.0.0.1 -u mysql_user -p database_name table_name */
+
 
 -- -------------------------------------------------------------
 -- Procedure to delete User
